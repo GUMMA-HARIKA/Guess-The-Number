@@ -48,7 +48,8 @@ againBtn.addEventListener('click',() => {
     bodyEle.style.backgroundColor = 'black'
     checkBtn.disabled = false;
     highScore.style.color = 'white'
-
+    displayNumber.textContent = '?';
+    
     message.textContent = 'Start guessing...';
     message.style.color = 'white';
     count = 1;
